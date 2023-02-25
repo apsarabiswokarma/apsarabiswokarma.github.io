@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apsara Bishwokarma</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="bg-[#FCF8F1] bg-opacity-30">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <div class="flex-shrink-0">
+          <a href="#" title="" class="flex">
+            <span class="ml-2 text-xl font-bold text-black">Apsara</span>
+          </a>
+        </div>
+
+        <button type="button"
+          class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+          <!-- Menu open: "hidden", Menu closed: "block" -->
+          <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
+          </svg>
+
+          <!-- Menu open: "block", Menu closed: "hidden" -->
+          <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+
+        <div class="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
+          <a href="#about" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80">
+            About me
+          </a>
+
+          <a href="#projects" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80">
+            Projects
+          </a>
+          <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80">
+            Skills
+          </a>
+        </div>
+
+        <a href="#" title=""
+          class="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-base transition-all duration-200 hover:bg-yellow-300 hover:text-black focus:text-black focus:bg-yellow-300 font-semibold text-white bg-black rounded-full"
+          role="button"> Let's talk </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="grid items-center grid-cols-1 md:grid-cols-2">
+        <div>
+          <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Hey 👋 I am <br
+              class="block sm:hidden" />Apsara Bishwokarma</h2>
+          <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+            Aspiring Front-end Developer, passionate about creating intuitive and visually appealing websites that make
+            a positive impact on users.
+          </p>
+
+          <p class="mt-4 text-xl text-gray-600 md:mt-8">
+            <span class="relative inline-block">
+              <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
+              <span class="relative"> Have a question? </span>
+            </span>
+            <br class="block sm:hidden" />Ask me on
+            <a href="https://www.facebook.com/7apsarabishwokarma" title=""
+              class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"
+              target="_blank">Facebook</a>
+          </p>
+        </div>
+
+        <div class="relative">
+          <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
+            src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
+
+          <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="./me-no-bg.png"
+            alt="Apsara" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
+        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
+          I love creating websites and apps in an
+          <span class="relative inline-block">
+            <span class="absolute inline-block w-full h-2 bg-yellow-300 bottom-1.5"></span>
+            <span class="relative"> attractive way.</span>
+          </span>
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 mt-8 md:mt-20 gap-y-6 md:grid-cols-2 gap-x-10">
+        <div>
+          <img class="w-full mx-auto sm:max-w-xs"
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="" />
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">I am an aspiring Software Engineer</h3>
+          <p class="mt-4 text-lg text-gray-700">
+            As an aspiring front-end developer, I am passionate about creating intuitive and visually appealing websites
+            and mobile apps
+            that make a positive impact on users. Through my studies in software development, I have been learning the
+            technical skills required to build responsive and engaging web experiences, and I am always eager to expand
+            my knowledge and stay up-to-date with the latest trends in web development.
+          </p>
+          <p class="mt-4 text-lg text-gray-700">
+            With a focus on user experience
+            and a dedication to crafting high-quality digital products, I am committed to building a career in front-end
+            development that allows me to make a meaningful contribution to the industry
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="flex items-end justify-between">
+        <div class="flex-1 text-center lg:text-left">
+          <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Featured Projects</h2>
+          <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">
+            Here are some of my projects that I have worked on.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+        <div class="overflow-hidden bg-white rounded shadow">
+          <div class="p-5">
+            <div class="relative">
+              <a href="https://github.com/apsarabiswokarma/webDev-projects/tree/master/spotify" target="_blank" title=""
+                class="block  h-60  overflow-hidden">
+                <img class="object-cover  rounded-md  w-full h-full" src="./projects/spotify.png" alt="spotify" />
+              </a>
+              <div class="absolute top-4 left-4">
+                <span
+                  class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full">
+                  Website </span>
+              </div>
+            </div>
+            </span>
+            <p class="mt-5 text-2xl font-semibold">
+              <a href="https://github.com/apsarabiswokarma/webDev-projects/tree/master/spotify" target="_blank" title=""
+                class="text-black"> Spotify clone - Play your favourite music </a>
+            </p>
+            <p class="mt-4 text-base text-gray-600">
+              A Spotify clone built with Vanilla JS, HTML and CSS. It uses Javascript audio apis. It allows users to
+              play their favourite music.
+            </p>
+          </div>
+        </div>
+
+        <div class="overflow-hidden bg-white rounded shadow">
+          <div class="p-5">
+            <div class="relative">
+              <a href="https://github.com/apsarabiswokarma/webDev-projects/tree/master/Projectile-simulation"
+                target="_blank" title="" class="block  h-60  overflow-hidden">
+                <img class="object-cover rounded-md w-full h-full" src="./projects/projectile.png" alt="Projectile" />
+              </a>
+              <div class="absolute top-4 left-4">
+                <span
+                  class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full">
+                  Website </span>
+              </div>
+            </div>
+            </span>
+            <p class="mt-5 text-2xl font-semibold">
+              <a href="https://github.com/apsarabiswokarma/webDev-projects/tree/master/Projectile-simulation"
+                target="_blank" title="" class="text-black"> Projectile Simulation </a>
+            </p>
+            <p class="mt-4 text-base text-gray-600">
+              A projectile simulation built with Vanilla JS, HTML and CSS. It uses Javascript projectile formula. It
+              allows users to simulate projectile motion.
+            </p>
+          </div>
+        </div>
+
+        <div class="overflow-hidden bg-white rounded shadow">
+          <div class="p-5">
+            <div class="relative">
+              <a href="https://github.com/apsarabiswokarma/30-days-of-Flutter" target="_blank" title=""
+                class="block h-60 overflow-hidden">
+                <img class="object-cover rounded-md w-full h-full" src="./projects/books-app.jpg" alt="Books App" />
+              </a>
+              <div class="absolute top-4 left-4">
+                <span
+                  class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full">
+                  App </span>
+              </div>
+            </div>
+            </span>
+            <p class="mt-5 text-2xl font-semibold">
+              <a href="https://github.com/apsarabiswokarma/30-days-of-Flutter" target="_blank" title=""
+                class="text-black"> Book App </a>
+            </p>
+            <p class="mt-4 text-base text-gray-600">
+              Keep record of your favourite books. Built with FLutter.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+</body>
+
+</html>
